@@ -17,7 +17,9 @@ class MainActivity : AppCompatActivity() {
         R.string.question_australia,
         R.string.question_oceans,
         R.string.question_mideast,
-
+        R.string.question_africa,
+        R.string.question_americas,
+        R.string.question_asia
     )
 
 
@@ -139,7 +141,7 @@ class MainActivity : AppCompatActivity() {
         resetQuiz()
     }
 
-
+    // Сбрасываем викторину для нового прохождения
     private fun resetQuiz() {
         correctAnswers = 0
         currentIndex = 0
