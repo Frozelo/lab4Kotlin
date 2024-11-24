@@ -8,14 +8,6 @@
     android:padding="16dp">
 
     <TextView
-        android:id="@+id/api_level_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="API Level"
-        android:textSize="18sp"
-        android:layout_marginBottom="24dp"/>
-
-    <TextView
         android:id="@+id/answer_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
